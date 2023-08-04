@@ -8,7 +8,7 @@ def find_number_of_rows(data):
     """
     column=data.split('\n')
     first_column=column[0].split(',')
-    return len(first_column)
+    return column
 
 # Read the csv file
 f=open('data.csv')
